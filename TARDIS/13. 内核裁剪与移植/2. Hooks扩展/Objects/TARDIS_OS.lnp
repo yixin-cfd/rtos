@@ -1,0 +1,23 @@
+--cpu Cortex-M4
+".\objects\main.o"
+".\objects\switch.o"
+".\objects\bitmap.o"
+".\objects\list.o"
+".\objects\time.o"
+".\objects\task.o"
+".\objects\cpu.o"
+".\objects\app.o"
+".\objects\event.o"
+".\objects\semaphore.o"
+".\objects\messagebox.o"
+".\objects\memoryblock.o"
+".\objects\flaggroup.o"
+".\objects\mutexsemaphore.o"
+".\objects\timer.o"
+".\objects\hooks.o"
+".\objects\startup_armcm4.o"
+".\objects\system_armcm4.o"
+--strict --scatter ".\Objects\TARDIS_OS.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\TARDIS_OS.map" -o .\Objects\TARDIS_OS.axf

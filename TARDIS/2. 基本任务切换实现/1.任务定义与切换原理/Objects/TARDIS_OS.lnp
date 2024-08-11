@@ -1,0 +1,9 @@
+--cpu Cortex-M4
+".\objects\main.o"
+".\objects\switch.o"
+".\objects\startup_armcm4.o"
+".\objects\system_armcm4.o"
+--strict --scatter ".\Objects\TARDIS_OS.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\TARDIS_OS.map" -o .\Objects\TARDIS_OS.axf

@@ -1,0 +1,36 @@
+Dependencies for Project 'TARDIS_OS', Target 'TARDIS': (DO NOT MODIFY !)
+F (.\source\main.c)(0x628E314A)(-c --cpu Cortex-M4 --li -g -O0 --apcs=interwork --split_sections -I .\include-I"D:\嵌入式操作系统\TARDIS\3. 内核核心实现\3. 位图数据结构\RTE"-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="521" -D_RTE_ -DARMCM4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\include\TARDIS_OS.h)(0x628E2DDF)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (.\include\DS_Lib.h)(0x628E2748)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include\ARMCM4.h)(0x562075B4)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include\system_ARMCM4.h)(0x55D41F08)
+F (.\Source\switch.c)(0x628DF393)(-c --cpu Cortex-M4 --li -g -O0 --apcs=interwork --split_sections -I .\include-I"D:\嵌入式操作系统\TARDIS\3. 内核核心实现\3. 位图数据结构\RTE"-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="521" -D_RTE_ -DARMCM4-o .\objects\switch.o --omf_browse .\objects\switch.crf --depend .\objects\switch.d)
+I (.\include\TARDIS_OS.h)(0x628E2DDF)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (.\include\DS_Lib.h)(0x628E2748)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include\ARMCM4.h)(0x562075B4)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include\system_ARMCM4.h)(0x55D41F08)
+F (.\Source\Bitmap.c)(0x628E33F2)(-c --cpu Cortex-M4 --li -g -O0 --apcs=interwork --split_sections -I .\include-I"D:\嵌入式操作系统\TARDIS\3. 内核核心实现\3. 位图数据结构\RTE"-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="521" -D_RTE_ -DARMCM4-o .\objects\bitmap.o --omf_browse .\objects\bitmap.crf --depend .\objects\bitmap.d)
+I (.\include\DS_Lib.h)(0x628E2748)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+F (RTE\Device\ARMCM4\startup_ARMCM4.s)(0x50B2CC4C)(--cpu Cortex-M4 --li -g --apcs=interwork -I"D:\嵌入式操作系统\TARDIS\3. 内核核心实现\3. 位图数据结构\RTE"-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "ARMCM4 SETA 1"--list .\listings\startup_armcm4.lst --xref -o .\objects\startup_armcm4.o --depend .\objects\startup_armcm4.d)
+F (RTE\Device\ARMCM4\system_ARMCM4.c)(0x628DBEC5)(-c --cpu Cortex-M4 --li -g -O0 --apcs=interwork --split_sections -I .\include-I"D:\嵌入式操作系统\TARDIS\3. 内核核心实现\3. 位图数据结构\RTE"-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="521" -D_RTE_ -DARMCM4-o .\objects\system_armcm4.o --omf_browse .\objects\system_armcm4.crf --depend .\objects\system_armcm4.d)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include\ARMCM4.h)(0x562075B4)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include\system_ARMCM4.h)(0x55D41F08)

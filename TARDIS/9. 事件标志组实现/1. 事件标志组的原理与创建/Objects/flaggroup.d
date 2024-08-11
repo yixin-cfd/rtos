@@ -1,0 +1,11 @@
+.\objects\flaggroup.o: Source\FlagGroup.c
+.\objects\flaggroup.o: .\include\TARDIS_OS.h
+.\objects\flaggroup.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flaggroup.o: .\include\Config.h
+.\objects\flaggroup.o: .\include\DS_Lib.h
+.\objects\flaggroup.o: .\include\Task.h
+.\objects\flaggroup.o: .\include\Event.h
+.\objects\flaggroup.o: .\include\Semaphore.h
+.\objects\flaggroup.o: .\include\Messagebox.h
+.\objects\flaggroup.o: .\include\MemoryBlock.h
+.\objects\flaggroup.o: .\include\FlagGroup.h

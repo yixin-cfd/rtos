@@ -1,0 +1,15 @@
+.\objects\timer.o: Source\Timer.c
+.\objects\timer.o: .\include\TARDIS_OS.h
+.\objects\timer.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timer.o: .\include\Config.h
+.\objects\timer.o: .\include\DS_Lib.h
+.\objects\timer.o: .\include\Task.h
+.\objects\timer.o: .\include\Event.h
+.\objects\timer.o: .\include\Semaphore.h
+.\objects\timer.o: .\include\Messagebox.h
+.\objects\timer.o: .\include\MemoryBlock.h
+.\objects\timer.o: .\include\FlagGroup.h
+.\objects\timer.o: .\include\MutexSemaphore.h
+.\objects\timer.o: .\include\Timer.h
+.\objects\timer.o: .\include\Hooks.h
+.\objects\timer.o: .\include\TARDIS_OS.h
